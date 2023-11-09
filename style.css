@@ -1,0 +1,135 @@
+*{
+    margin:0px;
+    padding: 0px;
+    
+}
+#main{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+  
+}
+.navbar{
+    position: fixed;
+         z-index: 2;
+         height: 80px;
+         width: 100%;
+         margin:0px;
+         padding: 0px;
+         background-color: #59adf7;
+         display: flex;
+         flex-direction: row;
+         justify-content: flex-start;
+         align-items: center;
+     
+     }
+ 
+ 
+ .navbar div {
+     position: relative;
+     height:50px;
+     margin:5px;
+     background-color:transparent;
+ }
+ .nav{
+     position: absolute;
+     top: 0px;
+     left:0px;
+     right: 0px;
+     margin:1px;
+     padding: 0px 15px ;
+     
+ }
+ #logo{
+     width :130px;
+     height: 50px;
+     
+ } 
+ 
+  #logo img{
+     margin: 0px;
+     width :130px;
+     height: 50px;
+     
+ } 
+
+ #search{
+     height: 50px;
+     flex-grow: 1;
+     
+     margin: 5px;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     background-color:transparent;
+ 
+ }
+ 
+ 
+ 
+ #searchbox{
+     
+     left: -5px;
+     top:-2px;
+     height:35px;
+     width: 300px;
+     
+     padding: 0px;
+     border: 0px;
+     border-radius: 0px;
+     display: flex;
+     
+ 
+ }
+ #isearch{
+     height:35px;
+     width: 300px;
+  
+     padding: 0px;
+     margin: 0px;
+     padding: 0px;
+     border-radius: 0px;
+     border: 2px solid white;
+ }
+ #submit button{
+      position: relative;
+     left: -15px; 
+     top:5px;
+     height:40px;
+     width:50px;
+     border-radius: 0px;
+     background-color:rgb(192, 246, 255);
+     padding: 0px;
+     border:0px ;
+   
+ }
+ .navText{
+   
+     color: white;
+     text-align: center;
+     line-height: 50px;
+     font-size: 15px;
+
+     background-color:transparent; 
+    
+ }
+ .navText a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+ }
+
+
+ .navbar div:hover{
+    border: 2px solid  #4587c1;
+    border-radius: 10px;
+ }
+ #logo,#search ,#submit:hover{
+    border: none;
+ }
+
+ 
+ 
+
+
+ 
