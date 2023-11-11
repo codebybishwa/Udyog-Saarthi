@@ -152,7 +152,7 @@
     left: 0;
     width: 0%;
     height: 3px;
-    background-color: #21ee06;
+    background-color: #fff;
     transition: all .5s;
     
  }
@@ -183,7 +183,7 @@
   }
   
   .slide2 {
-    background-image: url("./images/image2.jpeg");
+    background-image: url("./images/image2.png");
     background-size: cover;
   }
   .slide3 {
