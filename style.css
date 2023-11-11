@@ -17,7 +17,7 @@
          width: 100%;
          margin:0px;
          padding: 0px;
-         background-color: #59adf7;
+         background-color: #023868;
          display: flex;
          flex-direction: row;
          justify-content: flex-start;
@@ -28,7 +28,7 @@
  
  .navbar div {
      position: relative;
-     height:50px;
+     height: 38px;
      margin:5px;
      background-color:transparent;
  }
@@ -95,7 +95,7 @@
  #submit button{
       position: relative;
      left: -15px; 
-     top:5px;
+     top:-1px;
      height:40px;
      width:50px;
      border-radius: 0px;
@@ -108,21 +108,38 @@
    
      color: white;
      text-align: center;
-     line-height: 50px;
-     font-size: 15px;
+     line-height: 44px;
+     font-size: 14px;
 
      background-color:transparent; 
     
  }
  .navText a{
-    color: rgb(0, 0, 0);
+    color: rgb(247, 237, 237);
     text-decoration: none;
  }
 
 
  .navbar div:hover{
-    border: 2px solid  #4587c1;
     border-radius: 10px;
+ }
+ .navText a{
+    padding-bottom: 2px;
+ }
+ .navText a::before{
+    content: ' ';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: #21ee06;
+    transition: all .5s;
+    
+ }
+
+ .navText a:hover::before{
+    width: 100%;
  }
  #logo,#search ,#submit:hover{
     border: none;
