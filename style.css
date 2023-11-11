@@ -6,7 +6,7 @@
 .right-section{
     display: flex;
     align-items: center;
-    padding: 0 2rem;
+    padding: 0 1.5rem;
 
 }
 .fa-bell,.fa-user{
@@ -79,7 +79,6 @@
  }
  
  input::placeholder {
-    padding: 10px; 
     color: #999; 
     font-style: italic;
   }
@@ -93,10 +92,20 @@
      
      padding: 0px;
      border: 0px;
-     border-radius: 0px;
      display: flex;
      
  
+ }
+
+ #searchbox input {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    padding-left: 10px;
+    height: 38px;
+ }
+ #searchbox input{
+    border: none;
+    outline: none;
  }
  #isearch{
      height:35px;
@@ -111,14 +120,22 @@
  #submit button{
       position: relative;
      left: -15px; 
-     top:-1px;
-     height:39px;
+     top:-0.5px;
+     height:38px;
      width:50px;
-     border-radius: 0px;
-     background-color:rgb(192, 246, 255);
+     border-top-right-radius: 7px;
+     border-bottom-right-radius: 7px;
+     background-color: #FF8C00;
      padding: 0px;
      border:0px ;
+     cursor: pointer;
    
+ }
+
+
+ #submit button i {
+    font-size: 1.2rem;
+    color: black;
  }
  .navText{
    
@@ -131,7 +148,7 @@
     
  }
  .right-section div{
-    margin: 0 2rem;
+    margin: 0 1rem;
  }
  .navText a{
     color: rgb(247, 237, 237);
