@@ -3,6 +3,9 @@
     padding: 0px;
     
 }
+body{
+    overflow-x: hidden
+}
 .right-section{
     display: flex;
     align-items: center;
