@@ -153,10 +153,6 @@
     text-decoration: none;
  }
 
-
- .navbar div:hover{
-    border-radius: 10px;
- }
  .navText a{
     padding-bottom: 2px;
  }
