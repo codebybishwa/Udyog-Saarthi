@@ -323,6 +323,14 @@ body {
     left: 3%;
     top: 35px;
 }
+.time{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.date{
+    margin-top: 12px;
+    font-size: 1.75em;
+}
 .loader{
     position: relative;
     right: 15%;
