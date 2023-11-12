@@ -213,6 +213,65 @@
     background-size: cover;
    
   }
+
+
+
+
+  #downnav1in{
+    position: relative;
+    height: 370px;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    background-color:none;
+    background-color: #023868;
+}
+.box  .downnav1box{
+    
+    height: 340px;
+    width: 235px;
+    margin: 15px;
+    background-color: transparent;
+    
+
+}
+.box .downnav1box ul{
+    position: relative;
+    top: 0px;
+    left: -10px;
+    line-height: 30px;
+    list-style-type: none;
+}
+.box .downnav1box .li1 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 19px;
+    font-weight: 900;
+}
+
+
+.box .downnav1box .li{   
+    
+    text-align: left;
+}
+.box .downnav1box .li a{  
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+ }
+ .box .downnav1box .special a{  
+  line-height: 45px;
+    text-decoration: none;
+    color: #7faaf4;
+ }
+.navbar .nav:hover{
+    border:1px solid white;
+}
+
+.downnav1box .li:hover{
+ text-decoration: rgba(255, 255, 255,1) underline;
+}
  
  
 
