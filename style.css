@@ -214,7 +214,152 @@ body{
   }
 
 
+/* Company-culture starts here */
+.company-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: fit-content;
+    width: 100%;
+    padding: 40px;
 
+    background-color: rgba(244, 248, 249, 0.09);
+    position: relative;
+
+}
+
+.company-container .company-culture {
+    height: 220px;
+    position: relative;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(178, 238, 251);
+    padding: 30px;
+    /* margin:10px; */
+
+}
+
+.company-container .company-culture .img1 img {
+    display: flex;
+    justify-content: flex-start;
+    top: -90%;
+    margin: -25px 0 0 30px;
+
+    border-radius: 50%;
+    height: 300px;
+    position: relative;
+    width: 300px;
+
+}
+
+.company-container .company-txt {
+    position: relative;
+    float: right;
+}
+
+
+.company-container .company-txt .company-heading1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0 30px 210px;
+    position: relative;
+    float: center;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 30px;
+    font-family: Barlow Semi Condensed, Helvetica, sans-serif;
+    color: #0f0f0f;
+
+}
+
+.company-container .company-txt .company-para1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 40px 0 30px 210px;
+    max-width: 340px;
+    position: relative;
+    float: center;
+
+    font-family: Nunito Sans, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #0f0f0f;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.company-container .company-culture-2{
+    height:220px;
+    position: relative;
+    width:80%;
+    display:flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(178, 238, 251);
+    padding: 30px;
+    margin:10px;
+
+}
+
+.company-container .company-culture-2 .img2 img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    top: -90%;
+    position: relative;
+    float: center;
+    margin: -61px 0 0 725px;
+    float: right;
+    border-radius: 50%;
+    height: 300px;
+
+    width: 300px;
+
+}
+
+
+
+.company-container .company-txt .company-heading2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 40px 0 0px -830px;
+    position: relative;
+    float: center;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 30px;
+    font-family: Barlow Semi Condensed, Helvetica, sans-serif;
+    color: #0f0f0f;
+
+}
+
+.company-container .company-txt .company-para2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 40px 0 0px -830px;
+    max-width: 340px;
+    position: relative;
+    float: center;
+
+    font-family: Nunito Sans, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #0f0f0f;
+    font-size: 16px;
+    line-height: 24px;
+}
+ /* company-container ends */
+ /* company-container ends */
+ /* company-container ends */
 
   #downnav1in{
     position: relative;
