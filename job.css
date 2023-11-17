@@ -1,0 +1,146 @@
+/* Second nav of JOB page */
+
+nav{
+    height: 5rem;
+    width: 100vw;
+}
+.nav-items{
+    height: 100%;
+    width: 100%;
+    background-color: #bcd8ef;
+}
+.nav-items .form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.search-1,.search-2,.search-3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 1rem;
+    background-color: #fff;
+    height: 60%;
+    width: 15%;
+    border-radius: 7px;
+    cursor: text;
+}
+.search-1 i, .search-2 i, .search-3 i{
+    margin: 0 20px 0 15px;
+}
+#button{
+    height: 60%;
+    width: 8%;
+    border-radius: 9px;
+    border: none;
+    background-color: #1d2d5a;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 24px;
+    padding: 9px 6px 7px;
+    outline: none;
+    cursor: pointer;
+}
+#button:hover{
+    background-color: #160b2a;
+}
+
+/* Job List */
+
+.jobs{
+    height: 355vh;
+    width: 100vw;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.job{
+    width: 80%;
+    height: 10%;
+    background-color: white;
+    margin: 1rem 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.job:hover{
+    background-color: #e1ebf4;
+}
+.company-logo{
+    background-color: #fff7f7;
+    height: 75%;
+    width: 10%;
+    margin: 0 1rem;
+}
+.company-name{
+    /* background-color: #fff7f7; */
+    height: 75%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.company-name span:nth-of-type(1){
+    font-size: 1.4rem;
+}
+.company-name span:nth-of-type(2), .company-name span:nth-of-type(3){
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    font-family: Nunito Sans,HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,helvetica,arial,Lucida Grande,sans-serif;
+}
+.apply{
+    font-family: Nunito Sans,HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,helvetica,arial,Lucida Grande,sans-serif;
+    height: 35%;
+    width: 13%;
+    background-color: #ebf8fd;
+    margin: 0 1rem 0 3rem;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    line-height: 18px;
+    color: #53565f;
+    text-transform: uppercase;
+    padding: 12px 14px;
+    box-sizing: border-box;
+    align-self: center;
+}
+.apply:hover{
+    background-color: #9adbf5;
+}
+.view-job{
+    font-family: Nunito Sans,HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,helvetica,arial,Lucida Grande,sans-serif;
+    height: 35%;
+    width: 13%;
+    background-color: none;
+    margin: 0 1rem 0 3rem;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    line-height: 18px;
+    border: 1px solid #1d2d5a;
+    color: #1d2d5a;
+    text-transform: uppercase;
+    padding: 21px 14px;
+    box-sizing: border-box;
+    align-self: center;
+}
+.view-job:hover{
+    background-color: #1d2d5a;
+    border: none;
+    color: white;
+}
