@@ -44,15 +44,31 @@ bio.addEventListener('click', () => {
     count++;
 });
 
+const body = document.querySelector('body');
 const edit = document.querySelector('.bio-edit')
 const pen = document.querySelector('.fa-pen');
+const myBio = document.querySelector('.my-bio');
+
+const bioTextarea = document.getElementById('bioTextarea');
+const editButton = document.querySelector('.edit-button');
+const cancelBtn = document.querySelector('.bio-edit-icon');
+
 pen.addEventListener('click' ,() => {
-    edit.style.display = "block";
+    edit.style.display = "flex";
+    bioTextarea.textContent = myBio.textContent;
+    body.classList.add("blur");
+    bioTextarea.addEventListener('input', function () {
+        this.style.height = 'auto';
+        this.style.height = this.scrollHeight + 'px';
+      });
+      editButton.addEventListener('click', function() {
+        myBio.innerText = bioTextarea.value;
+      }); 
+      cancelBtn.addEventListener('click', function(){
+        edit.style.display = "none";
+        body.classList.remove("blur");
+      });
 });
 
-const textarea = document.querySelector('#textarea');
-textarea.addEventListener('keyup' , (e) => {
-    textContent.style.height = "auto";
-    let scHeight = e.target.scrollHeight;
-    textarea.style.height = `${scHeight}px`;
-});
+
+
