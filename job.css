@@ -31,6 +31,18 @@ nav{
 .search-1 i, .search-2 i, .search-3 i{
     margin: 0 20px 0 15px;
 }
+.search-1 input, .search-2 input, .search-3 input{
+    border: none;
+    height: 100%;
+    width: 100%;
+    outline: none;
+}
+input::placeholder { 
+    color: #999; 
+    font-style: italic;
+    font-size: 16px;
+  }
+
 #button{
     height: 60%;
     width: 8%;
