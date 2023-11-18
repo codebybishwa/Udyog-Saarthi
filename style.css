@@ -72,7 +72,7 @@ body{
  #search{
      height: 50px;
      flex-grow: 1;
-     
+  
      margin: 5px;
      display: flex;
      justify-content: flex-start;
@@ -92,7 +92,6 @@ body{
      top:-2px;
      height:35px;
      width: 300px;
-     
      padding: 0px;
      border: 0px;
      display: flex;
@@ -151,7 +150,11 @@ body{
     
  }
  .right-section div{
-    margin: 0 1rem;
+    margin: 0px 5px;
+ }
+ .right-section .sp{
+    margin: 0px;
+    padding: 0px;
  }
  .navText a{
     color: rgb(247, 237, 237);
@@ -258,32 +261,30 @@ body{
 
 .company-container .company-txt {
     position: relative;
-    float: right;
+    flex-grow: 1;
+    background-color:transparent;
+    text-align: center;
+    max-width: 600px;
 }
 
 
 .company-container .company-txt .company-heading1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 40px 0 30px 210px;
+  
     position: relative;
     float: center;
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 0;
-    line-height: 30px;
+    line-height: 70px;
     font-family: Barlow Semi Condensed, Helvetica, sans-serif;
     color: #0f0f0f;
+    text-align: center;
 
 }
 
 .company-container .company-txt .company-para1 {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    margin: 40px 0 30px 210px;
-    max-width: 340px;
+  
+  text-align: center;
     position: relative;
     float: center;
 
@@ -294,69 +295,6 @@ body{
     line-height: 24px;
 }
 
-.company-container .company-culture-2{
-    height:220px;
-    position: relative;
-    width:80%;
-    display:flex;
-    
-    justify-content: space-around;
-    align-items: center;
-    background-color: rgb(178, 238, 251);
-    padding: 30px;
-    margin:10px;
-
-}
-
-.company-container .company-culture-2 .img2 img {
-    display: flex;
-    justify-content: flex-end;
-    align-items: end;
-    top: -90%;
-    position: relative;
-    float: center;
-    margin: -61px 0 0 725px;
-    float: right;
-    border-radius: 50%;
-    height: 300px;
-
-    width: 300px;
-
-}
-
-
-
-.company-container .company-txt .company-heading2 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 40px 0 0px -830px;
-    position: relative;
-    float: center;
-    font-size: 30px;
-    font-weight: 700;
-    letter-spacing: 0;
-    line-height: 30px;
-    font-family: Barlow Semi Condensed, Helvetica, sans-serif;
-    color: #0f0f0f;
-
-}
-
-.company-container .company-txt .company-para2 {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    margin: 40px 0 0px -830px;
-    max-width: 340px;
-    position: relative;
-    float: center;
-
-    font-family: Nunito Sans, Helvetica, sans-serif;
-    font-weight: 400;
-    color: #0f0f0f;
-    font-size: 16px;
-    line-height: 24px;
-}
  /* company-container ends */
  /* company-container ends */
  /* company-container ends */
@@ -594,3 +532,80 @@ body{
 .downnav1box .li:hover{
  text-decoration: rgba(255, 255, 255,1) underline;
 }
+
+/* responsive  */
+/* responsive  */
+
+
+/* mobile */
+@media (max-width: 480px){
+
+    .rem1,.rem2,.rem3,.rem5,.rem4,#searchbox{
+        display: none;
+    }
+    .nav{
+        padding: 0px;
+    }
+}
+
+@media (min-width: 481px)and (max-width:610px){
+
+    .rem1, .rem2, .rem5,.rem4,#searchbox{
+        display: none;
+    }
+
+    .nav{
+        padding: 0px;
+    }
+}
+/* x-small devices */
+@media (min-width: 611px)and (max-width:799px){
+
+    .rem1, .rem2, .rem5,#searchbox{
+        display: none;
+    }
+}
+
+/* small tablets */
+@media (min-width: 800px)and (max-width:910px){
+
+    .rem1 , .rem2,.rem3, .rem4{
+        display: none;
+    }
+}
+
+/* small tablets */
+@media (min-width: 911px)and (max-width:991px){
+
+    .rem1 , .rem2,.rem3{
+        display: none;
+    }
+}
+
+/* large laptop/tablets */
+@media (min-width: 992px)and (max-width:1120px){
+
+    .rem1, .rem2{
+        display: none;
+    }
+}
+
+
+@media (min-width: 1121px)and (max-width:1199px){
+
+    .rem1{
+        display: none;
+    }
+}
+
+/* desktops */
+@media (min-width: 1200px)and (max-width:1919px){
+
+}
+
+/* extra large screens */
+@media (min-width: 768px){
+
+}
+/* responsive  */
+/* responsive  */
