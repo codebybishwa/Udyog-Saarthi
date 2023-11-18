@@ -5,15 +5,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Profile</title>
-  <link rel="shortcut icon" type="x-icon" href="./images/udyog sarthi.png">
+  <link rel="shortcut icon" type="x-icon" href="./images/udyog sarthi.png" />
   <link rel="stylesheet" href="profile.css" />
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet" />
 </head>
 
 <body>
@@ -69,35 +69,42 @@
   </div>
   <div class="container">
     <div class="left">
-      <div class="photo">
-        <img src="./images/user-icon.png" alt="">
-      </div>
-      <h2 class="user-name">USER</h2>
-      <p>ABBA JABBA BABBA DABBA</p>
-      <div class="candidate">
-        <p class="candidate-history">Candidate History</p>
+      <div class="whole-part">
+        <div class="photo">
+          <img src="./images/user-icon.png" alt="">
+        </div>
+        <h2 class="user-name">USER</h2>
+        <p>ABBA JABBA BABBA DABBA</p>
+        <h3>Candidate History</h3>
         <div class="portfolio">
           <div class="left-part">
             <p>Portfolio Strength</p>
             <div class="dateTime">
-              <span class="time"></span><br>
+              <span class="time"></span>
+              <br />
               <span class="date"></span>
             </div>
           </div>
           <div class="right-part">
-            <div class="loader"></div>
-            <span>25%</span>
+            <div class="loader"><p>25%</p></div>
           </div>
         </div>
-        <hr style="width: 100%;">
-      </div>
-      <div class="bio">
-        <span>View Bio</span>
-        <i class="fa-solid fa-caret-down"></i>
-        <span class="show-bio"></span>
-        <span class="bio-edit"></span>
-      </div>
-      <div class="demo">
+        <hr style="width: 80%" />
+        <div class="bio ">
+          <span>View Bio</span>
+          <i class="fa-solid fa-caret-down"></i>
+        </div>
+      
+        <span class="show-bio">
+          <div class="visible">
+            <p class="my-bio">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae earum sequi dolores, sapiente commodi odit doloribus ipsam ea laborum vel, ad, numquam alias omnis? </p>
+            <i class="fa-solid fa-pen"></i>
+          </div>
+        </span>
+        <span class="bio-edit">
+            <textarea placeholder="Type your bio here"></textarea>
+            <button type="submit">Submit</button>
+        </span>
       </div>
     </div>
 
@@ -131,23 +138,14 @@
             <span class="value">Sector-3A, Gurgaon, Haryana</span>
           </div>
         </div>
-        <div class="contact-details">
-
-        </div>
-        <div class="social-media">
-
-        </div>
-        <div class="additional">
-
-        </div>
-
-
+        <div class="contact-details"></div>
+        <div class="social-media"></div>
+        <div class="additional"></div>
       </div>
       <div class="resume"></div>
       <div class="resources"></div>
       <div class="attachments"></div>
     </div>
-
   </div>
   <!-- <div class="box" id="downnav1">
     <div id="downnav1in">
@@ -207,10 +205,7 @@
       </div>
     </div> -->
 
-
-
-
-    <script src="./app.js"></script>
+  <script src="./app.js"></script>
 </body>
 
 </html>

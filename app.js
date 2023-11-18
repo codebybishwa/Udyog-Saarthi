@@ -28,4 +28,31 @@ setInterval(() => {
 }, 200);
 
 
-/**************************ANY OTHER CODE******************************/ 
+/**************************BIO******************************/ 
+const bio = document.querySelector('.bio');
+const visible = document.querySelector('.visible');
+let count=0;
+bio.addEventListener('click', () => {
+    bio.classList.toggle('show');
+    if (count % 2 === 0) {
+        visible.classList.remove('bio-back');
+        visible.classList.add('bio-show');
+    } else {
+        visible.classList.remove('bio-show');
+        visible.classList.add('bio-back');
+    }
+    count++;
+});
+
+const edit = document.querySelector('.bio-edit')
+const pen = document.querySelector('.fa-pen');
+pen.addEventListener('click' ,() => {
+    edit.style.display = "block";
+});
+
+const textarea = document.querySelector('#textarea');
+textarea.addEventListener('keyup' , (e) => {
+    textContent.style.height = "auto";
+    let scHeight = e.target.scrollHeight;
+    textarea.style.height = `${scHeight}px`;
+});
