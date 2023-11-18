@@ -5,9 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Profile</title>
-  <link rel="shortcut icon" type="x-icon" href="./images/udyog sarthi.png">
-  <link rel="stylesheet" href="profile.css" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" type="x-icon" href="../images/udyog sarthi.png">
+  <link rel="stylesheet" href="/profile-page/profile.css" />
+  <link rel="stylesheet" href="/profile-page/style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -20,6 +20,7 @@
   <div id="main">
     <div class="navbar" id="navbar">
       <div class="nav" id="logo">
+        <a href="../index.html"><img src="../images/udyog sarthi.png" /></a>
         <img src="./images/udyog sarthi.png" />
       </div>
 
@@ -112,15 +113,12 @@
     <div class="right">
       <div class="headings">
         <div class="details-heading">Details</div>
-        <div class="details-heading">Resume</div>
-        <div class="details-heading">Resources</div>
+        <div class="details-heading">Jobs</div>
+        <div class="details-heading">Organizations</div>
         <div class="details-heading">Attachments</div>
       </div>
       <div class="details">
-        <div class="job">
-          <h4>VACANCY & JOB DETAILS</h4>
-        </div>
-        <div class="personal-details">
+        <div class="personal-details main">
           <h4 class="personal-details-heading">Personal Details</h4>
           <div class="detail">
             <span class="label">Name:</span>
@@ -135,17 +133,116 @@
             <span class="value">18</span>
           </div>
           <div class="detail">
+            <span class="label">DOB:</span>
+            <span class="value">13-04-2004</span>
+          </div>
+          <div class="detail">
             <span class="label">Address:</span>
             <span class="value">Sector-3A, Gurgaon, Haryana</span>
           </div>
         </div>
-        <div class="contact-details">
+
+        <div class="contact-details main">
+          <h4 class="contact-details-heading">Contact Details</h4>
+          <div class="contacts">
+
+            <div class="info">
+              <div class="contact-label">
+                <div class="contact-icon">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="contact-text">
+                  <p>Phone: </p>
+                </div>
+              </div>
+              <div class="contact-value"><span>+91-4902820379</span></div>
+            </div>
+
+            <div class="info">
+              <div class="contact-label">
+                <div class="contact-icon">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="contact-text">
+                  <p>Email: </p>
+                </div>
+              </div>
+              <div class="contact-value"><span>ashwanijha@gmail.com</span></div>
+            </div>
+
+            <div class="info">
+              <div class="contact-label">
+                <div class="contact-icon">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="contact-text">
+                  <p>Location: </p>
+                </div>
+              </div>
+              <div class="contact-value"><span><span class="house-location">Sector-3A</span> <br>Gurgaon, Haryana</span>
+              </div>
+            </div>
+
+            <div class="info">
+              <div class="contact-label">
+                <div class="contact-icon">
+                  <i class="fa-brands fa-discord"></i>
+                </div>
+                <div class="contact-text">
+                  <p>Social Media: </p>
+                </div>
+              </div>
+              <div class="contact-value social">
+                <a href="https://twitter.com/elonmusk"><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-meta"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+
+          </div>
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224567.7202326759!2d76.82493738434313!3d28.423160292236762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19d582e38859%3A0x2cf5fe8e5c64b1e!2sGurugram%2C%20Haryana!5e0!3m2!1sen!2sin!4v1700310803390!5m2!1sen!2sin"
+              style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+
+        <div class="disability-info main">
+          <h4>Disability Information</h4>
+          <div class="disability-detail">
+              <span class="disability-label">Type of Disability:</span>
+              <span class="disability-value">Mobility Impairment</span>
+          </div>
+          <div class="disability-detail">
+              <span class="disability-label">Severity or Level of Disability:</span>
+              <span class="disability-value">Moderate</span>
+          </div>
+          <div class="disability-detail">
+              <span class="disability-label">Assistive Devices or Technologies Used:</span>
+              <span class="disability-value">Wheelchair, Voice Recognition Software</span>
+          </div>
+
+          <div class="disability-detail">
+            <span class="label">Accessible Accommodations Required:</span>
+            <span class="value">Braille, Sign Language Interpreter, etc.</span>
+          </div>
+          
+          <div class="disability-detail">
+            <span class="label">Date of Disability Onset:</span>
+            <span class="value">DD/MM/YYYY</span>
+          </div>
+        </div>
+
+        <div class="education-background main">
 
         </div>
-        <div class="social-media">
+
+        <div class="skills main">
 
         </div>
-        <div class="additional">
+
+        <div class="additional main">
 
         </div>
 
@@ -218,7 +315,7 @@
 
 
 
-    <script src="./app.js"></script>
+  <script src="./app.js"></script>
 </body>
 
 </html>

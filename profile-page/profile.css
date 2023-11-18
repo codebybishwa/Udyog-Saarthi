@@ -246,7 +246,7 @@ body {
 .container {
     background-color: white;
     width: calc(100% - 40px); 
-    height: 150vh;
+    height: 250vh;
     border-radius: 10px;
     margin: 20px;  
     overflow-x: hidden;
@@ -263,9 +263,8 @@ body {
 }
 
 .left {
-    flex: 1;
-    margin: 10px;
     height: 100%;
+    width: 23%;
 }
 .photo {
     position: relative;
@@ -382,6 +381,14 @@ hr{
     padding: 0.5rem 0;
     font-weight: 600;
 }
+
+
+
+
+/* -------------
+ Right section of container div starts
+------------- */
+
 .right {
     height: 93%;
     flex: 3;
@@ -396,17 +403,21 @@ hr{
 }
 
 .headings {
+    /* background-color: #023868; */
     width: 100%;
-    height: 7%;
+    height: min-content;
     border-bottom: 1px solid  rgba(128, 128, 128, 0.3);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .details-heading {
-    color: rgba(128, 128, 128, 1);
-    font-size: 0.9rem;
+   
+    color: black;
+    font-size: 1rem;
     position: relative;
     text-decoration: none;
     cursor: pointer;
@@ -435,16 +446,11 @@ hr{
     width: 100%;
 }
 
+/* details page starts */
 
 .details {
     width: 100%;
     height: 90%;
-    padding: 5px;
-}
-
-.job {
-    height: min-content;
-    width: 100%;
     padding: 5px;
 }
 
@@ -459,7 +465,18 @@ hr{
     flex-wrap: wrap;
     gap: 15px;
     overflow: hidden;
+    position: relative;
 }
+
+.personal-details div {
+    height: min-content;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+}
+
 
 .detail {
     flex: 1 1 45%;
@@ -477,29 +494,170 @@ hr{
     font-size: 0.9 rem;
 }
 
-.personal-details-heading {
+.details h4 {
     width: 100%;
-    font-size: 1.15rem;
+    font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 10px;
     color: #333;
 }
 
+.details .main {
+    height: min-content;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
+}
 
 .contact-details {
-    height: 30%;
+    height: min-content;
     width: 100%;
-    background-color: #498ef5;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    position: relative;
+}
+
+.contacts {
+    height: min-content;
+    padding: 10px;
+    width: 45%;
+    margin-right: 10%;
+    border-radius: 10px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.info {
+    margin-bottom: 20px;
+    height: min-content;
+    width: 70%;
+    font-size: 0.95rem;
+    flex: 1 1 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.contact-value {
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.house-location {
+    margin-left: 10px;
+}
+
+.contact-value span{
+    margin-left: 8%;
+}
+
+.contact-info {
+    display: flex;
+}
+
+.contact-icon i {
+    margin-right: 5px;
+    font-size: 0.9rem;
+}
+
+.social a {
+    color: black;
+}
+
+.social i {
+    font-size: 1.35rem;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-left: 4px;
+}
+
+
+.info p {
+    color:  #54626F;
+    font-weight: bold;
+}
+
+.map {
+    height: min-content;
+    width: 40%;
+    margin-right: 5%;
+}
+
+.map iframe {
+    width: 100%;
+    height: 380px;
 }
 
 .additional {
     height: 30%;
     width: 100%;
-    background-color: red;
 }
 
 .social-media {
     height: 30%;
     width: 100%;
-    background-color: pink;
 }
+
+.disability-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    overflow: hidden;
+}
+
+.disability-detail {
+    margin-right: 30px;
+    margin-left: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.disability-info div {
+    height: min-content;
+    width: 40%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+}
+
+.disability-label {
+    font-weight: bold;
+    color: #555;
+    font-size: 1.1rem;
+}
+
+.disability-value {
+    margin-top: 10px;
+    font-size: 0.95rem;
+}
+
+/* details page ends */
+
+/* -------------
+ Right section of container div ends
+------------- */
