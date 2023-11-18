@@ -246,17 +246,26 @@ body {
 .container {
     background-color: white;
     width: calc(100% - 40px); 
-    height: 88vh;
+    height: 150vh;
     border-radius: 10px;
     margin: 20px;  
     overflow-x: hidden;
     display: flex;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    font-family: 'Playfair Display', serif;
+    overflow-y: hidden;
+}
+
+.demo {
+    height: 20%;
+    width: 100%;
+    background-color: #dddddd;
 }
 
 .left {
     flex: 1;
     margin: 10px;
+    height: 100%;
 }
 .photo {
     position: relative;
@@ -374,6 +383,7 @@ hr{
     font-weight: 600;
 }
 .right {
+    height: 93%;
     flex: 3;
     margin-top: 10px;
     margin-right: 10px;
@@ -429,81 +439,67 @@ hr{
 .details {
     width: 100%;
     height: 90%;
-    /* background-color: chocolate; */
     padding: 5px;
 }
 
 .job {
-    height: 20%;
+    height: min-content;
     width: 100%;
-    /* background-color: burlywood; */
     padding: 5px;
 }
 
 .personal-details {
+    height: min-content;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    overflow: hidden;
+}
+
+.detail {
+    flex: 1 1 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-weight: bold;
+    color:  #54626F;
+}
+
+.value {
+    margin-top: 5px;
+    font-size: 0.9 rem;
+}
+
+.personal-details-heading {
+    width: 100%;
+    font-size: 1.15rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+
+.contact-details {
     height: 30%;
     width: 100%;
-    padding: 5px;
-
+    background-color: #498ef5;
 }
 
-.columns {
-    display: flex;
+.additional {
+    height: 30%;
     width: 100%;
-    height: min-content;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgba(240,248,255,0.5);
-    border-radius: 10px;
-    padding-top: 10px;
-    margin-top: 5px;
+    background-color: red;
 }
 
-.left-column {
-  width: 40%;
-  margin-left: 2%;
-}
-
-.right-column {
-    width: 60%;
- margin-right: 10%;
- margin-top: 0%;
-}
-
-.personal-details p {
-    font-size: 0.9rem;
-    margin-bottom: 5px;
-}
-
-.personal-details span {
-    font-size: 0.95rem ;
-    font-weight: bolder;
-}
-
-.name1 {
-    margin-right: 15px;
-}
-
-.gender1 {
-    margin-right: 5px;
-}
-
-.age1 {
-    margin-right: 32px;
-}
-
-.address1 {
-  margin-right: 10px;
-}
-
-.city1 {
-    margin-right: 42px;
-}
-
-.state1 {
-    margin-right:  32px;
-}
-
-.pin1 {
-    margin-right: 50px;
+.social-media {
+    height: 30%;
+    width: 100%;
+    background-color: pink;
 }
