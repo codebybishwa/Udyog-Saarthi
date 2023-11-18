@@ -31,13 +31,18 @@ setInterval(() => {
 /**************************BIO******************************/ 
 const bio = document.querySelector('.bio');
 const visible = document.querySelector('.visible');
+const caret = document.querySelector('.bio i');
 let count=0;
 bio.addEventListener('click', () => {
     bio.classList.toggle('show');
     if (count % 2 === 0) {
+        caret.classList.remove('fa-caret-down');
+        caret.classList.add('fa-caret-up');
         visible.classList.remove('bio-back');
         visible.classList.add('bio-show');
     } else {
+        caret.classList.remove('fa-caret-up');
+        caret.classList.add('fa-caret-down');
         visible.classList.remove('bio-show');
         visible.classList.add('bio-back');
     }
