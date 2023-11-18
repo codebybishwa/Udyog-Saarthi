@@ -239,7 +239,7 @@ body{
     align-items: center;
     background-color: rgb(178, 238, 251);
     padding: 30px;
-    /* margin:10px; */
+     margin:20px; 
 
 }
 
@@ -360,6 +360,187 @@ body{
  /* company-container ends */
  /* company-container ends */
  /* company-container ends */
+
+ /* forge start */
+  /* forge start */ 
+
+.forge  {
+    position: relative;
+    height: fit-content;
+    width: 100%;
+    margin:0px;
+    padding: 10px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.forgetxt{
+    height: 100px;
+    background-color:transparent;
+    width: 100%;
+    text-align: center;
+}
+.forgeheading{
+    font-size: xx-large;
+    line-height: 30px;
+    margin: 10px;
+}
+.forgep{
+    font-size: larger;
+    line-height: 30px;
+    margin: 10px;
+}
+.forge_image{
+    
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    margin:0px;
+    padding: 20px;
+    background-color:transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.forge_image  .forgecards{
+    position: relative;
+    height: fit-content;
+    width: 300px;
+    margin:20px;
+    padding: 0px;
+    border-radius: 8px;
+    background-color:transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 4px 4px 8px rgb(0, 195, 255);
+    z-index: 1;
+
+}
+ .forgecardimage{
+    margin: 0px;
+    padding: 0px;
+    height: 300px;
+    width: 300px;
+    background-color: transparent;
+    
+    
+ }
+ .forgecardimage img{
+  
+    height: 300px;
+    width: 300px;
+    border-top-right-radius :8px ;
+    border-top-left-radius :8px ;
+  
+
+
+ }
+ /* .forgecardimage img:hover{
+    height: 320px;
+    width: 320px;
+    transition: 0.5s;
+
+ } */
+ 
+ .forgecardtxt{
+    text-align: center;
+    line-height: 80px;
+    font-size: x-large;
+    height: 100px;
+    width: 300px;
+    background-color: #fff;
+ }
+
+
+
+
+   /* forge end */
+    /* forge end*/
+
+    /* recent articles */
+    /* recent articles */
+    .recentart{
+        position: relative;
+        height: fit-content;
+        width: 100%;
+        margin:0px;
+        padding: 10px;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: rgb(249, 245, 245);
+
+    }
+    .articlebox{
+        position: relative;
+        height: fit-content;
+        width: 80%;
+        margin:20px;
+        padding: 5px;
+        background-color:transparent;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-items: center;
+        
+    
+    }
+    .rec_art{
+        width: 300px;
+        flex-grow: 1;
+        height: 100px;
+        margin: 10px;
+        border: 2px solid rgb(215, 213, 213);
+        border-radius: 8px;
+        background-color: red;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+  
+    .recimg{
+        width: 25%;
+        height: 100%;
+        background-color: aqua;
+    }
+    .recimg img{
+        width: 100%;
+        height: 100%;
+       
+    }
+    .rectxt{
+        flex-grow: 1;
+        height: 100%;
+        background-color: white;
+    }
+    .rechead{
+        font-size: x-large;
+        text-align: left;
+        line-height: 30px;
+        margin-left: 10px;
+    }
+    .recpara{
+        font-size: small;
+        line-height: 15px;
+        text-align: left;
+        margin-left: 10px;
+    }
+    
+
+
+    /* recent articles */
+    /* recent articles */
 
   #downnav1in{
     position: relative;
