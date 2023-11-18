@@ -1,202 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Profile</title>
-    <link rel="shortcut icon" type="x-icon" href="./images/udyog sarthi.png">
-    <link rel="stylesheet" href="profile.css" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
-  <body>
-    <div id="main">
-      <div class="navbar" id="navbar">
-        <div class="nav" id="logo">
-          <a href="./index.html"><img src="./images/udyog sarthi.png" /></a>
-        </div>
 
-        <div class="nav" id="search">
-          <div id="searchbox" class="search">
-            <input
-              type="text"
-              id="isearch"
-              name="q"
-              placeholder="SEARCH JOBS"
-            />
-          </div>
-          <div class="search" id="submit">
-            <button type="submit">
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </button>
-          </div>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile</title>
+  <link rel="shortcut icon" type="x-icon" href="./images/udyog sarthi.png">
+  <link rel="stylesheet" href="profile.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+</head>
 
-        <div class="right-section">
-            <div class="nav navText" id="jobs">
-                <a href="./job.html">JOBS</a>
-              </div>
-              <div class="nav navText" id="resources">
-                <a href="">RESOURCES</a>
-              </div>
-              <div class="nav navText" id="contact">
-                <a href="">CONTACT</a>
-              </div>
-              <div class="nav navText" id="newsletter">
-                <a href="">NEWSLETTER</a>
-              </div>
-              <div class="nav navText" id="login">
-                <a href="./login/login.html">LOGIN/REGISTER</a>
-            </div>
-            <i class="fa-solid fa-bell"></i>
-            <i class="fa-solid fa-user"></i>
+<body>
+  <div id="main">
+    <div class="navbar" id="navbar">
+      <div class="nav" id="logo">
+        <a href="./index.html"><img src="./images/udyog sarthi.png" /></a>
+      </div>
+
+      <div class="nav" id="search">
+        <div id="searchbox" class="search">
+          <input type="text" id="isearch" name="q" placeholder="SEARCH JOBS" />
         </div>
+        <div class="search" id="submit">
+          <button type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="right-section">
+        <div class="nav navText" id="jobs">
+          <a href="./job.html">JOBS</a>
+        </div>
+        <div class="nav navText" id="resources">
+          <a href="">RESOURCES</a>
+        </div>
+        <div class="nav navText" id="contact">
+          <a href="">CONTACT</a>
+        </div>
+        <div class="nav navText" id="newsletter">
+          <a href="">NEWSLETTER</a>
+        </div>
+        <div class="nav navText" id="login">
+          <a href="./login/login.html">LOGIN/REGISTER</a>
+        </div>
+        <i class="fa-solid fa-bell"></i>
+        <i class="fa-solid fa-user"></i>
       </div>
     </div>
-    <div class="main">
-      <nav>
-        <h3>Candidate Profile</h3>
-        <div class="corner">
-          <i class="fa-solid fa-question"></i>
-          <div class="logOut">
-            <i class="fa-solid fa-right-from-bracket"></i>
-            <p>Log Out</p>
-          </div>
-        </div>
-      </nav>
-    </div>
-    <div class="container">
-      <div class="left">
-        <div class="photo">
-          <img src="./images/user-icon.png" alt="">
-        </div>
-        <h2 class="user-name">USER</h2>
-        <p>ABBA JABBA BABBA DABBA</p>
-        <div class="candidate">
-          <p class="candidate-history">Candidate History</p>
-          <div class="portfolio">
-            <div class="left-part">
-              <p>Portfolio Strength</p>
-              <div class="dateTime">
-                <span class="time"></span><br>
-                <span class="date"></span>
-              </div>
-            </div>
-            <div class="right-part">
-              <div class="loader"></div>
-              <span>25%</span>
-            </div>
-          </div>
-          <hr style="width: 100%;">
-        </div>
-        <div class="bio">
-          <span>View Bio</span>
-          <i class="fa-solid fa-caret-down"></i>
-          <span class="show-bio"></span>
-          <span class="bio-edit"></span>
-        </div>
-      </div>
-
-      <div class="right">
-          <div class="headings">
-              <div class="details-heading">Details</div>
-              <div class="details-heading">Resume</div>
-              <div class="details-heading">Resources</div>
-              <div class="details-heading">Attachments</div>
-          </div>
-          <div class="details">
-              <div class="job">
-                  <h4>VACANCY & JOB DETAILS</h4>
-              </div>
-              <div class="personal-details">
-                  <h4>PERSONAL DETAILS</h4>
-                  <div class="columns">
-                      <div class="left-column">
-                          <p><span class="name1">Name: </span>Yashkrit Singh</p>
-                          <p><span class="gender1">Gender: </span>male</p>
-                          <p><span class="age1">Age: </span>18</p>
-                      </div>
-                      <div class="right-column">
-                          <p><span class="address1">Address: </span>Sector-3A</p>
-                          <p><span class="city1">City: </span>Gurgaon</p>
-                          <p><span class="state1">State: </span>Haryana</p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <div class="resume"></div>
-          <div class="resources"></div>
-          <div class="attachments"></div>
-      </div>
-      
   </div>
-  <div class="box" id="downnav1">
+  <div class="main">
+    <nav>
+      <h3>Candidate Profile</h3>
+      <div class="corner">
+        <i class="fa-solid fa-question"></i>
+        <div class="logOut">
+          <i class="fa-solid fa-right-from-bracket"></i>
+          <p>Log Out</p>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="container">
+    <div class="left">
+      <div class="photo">
+        <img src="./images/user-icon.png" alt="">
+      </div>
+      <h2 class="user-name">USER</h2>
+      <p>ABBA JABBA BABBA DABBA</p>
+      <div class="candidate">
+        <p class="candidate-history">Candidate History</p>
+        <div class="portfolio">
+          <div class="left-part">
+            <p>Portfolio Strength</p>
+            <div class="dateTime">
+              <span class="time"></span><br>
+              <span class="date"></span>
+            </div>
+          </div>
+          <div class="right-part">
+            <div class="loader"></div>
+            <span>25%</span>
+          </div>
+        </div>
+        <hr style="width: 100%;">
+      </div>
+      <div class="bio">
+        <span>View Bio</span>
+        <i class="fa-solid fa-caret-down"></i>
+        <span class="show-bio"></span>
+        <span class="bio-edit"></span>
+      </div>
+      <div class="demo">
+      </div>
+    </div>
+
+    <div class="right">
+      <div class="headings">
+        <div class="details-heading">Details</div>
+        <div class="details-heading">Resume</div>
+        <div class="details-heading">Resources</div>
+        <div class="details-heading">Attachments</div>
+      </div>
+      <div class="details">
+        <div class="job">
+          <h4>VACANCY & JOB DETAILS</h4>
+        </div>
+        <div class="personal-details">
+          <h4 class="personal-details-heading">Personal Details</h4>
+          <div class="detail">
+            <span class="label">Name:</span>
+            <span class="value">Yashkrit Singh</span>
+          </div>
+          <div class="detail">
+            <span class="label">Gender:</span>
+            <span class="value">Male</span>
+          </div>
+          <div class="detail">
+            <span class="label">Age:</span>
+            <span class="value">18</span>
+          </div>
+          <div class="detail">
+            <span class="label">Address:</span>
+            <span class="value">Sector-3A, Gurgaon, Haryana</span>
+          </div>
+        </div>
+        <div class="contact-details">
+
+        </div>
+        <div class="social-media">
+
+        </div>
+        <div class="additional">
+
+        </div>
+
+
+      </div>
+      <div class="resume"></div>
+      <div class="resources"></div>
+      <div class="attachments"></div>
+    </div>
+
+  </div>
+  <!-- <div class="box" id="downnav1">
     <div id="downnav1in">
 
-    <div class="downnav1box">
-        <ul >
-            <li class="li1">ABOUT THE UDYOG SARTHI</li>
-            <li class="li"><a href="#">About us</a>  </li>
-            <li class="li"><a href="#">Careers</a>  </li>
-            <li class="li"><a href="#">FAQs</a>  </li>
-            <li class="li"><a href="#">Contact us</a>  </li>
-            <li class="li"><a href="#">Search Jobs</a>  </li>
-            <li class="li"><a href="#">Browse Companies</a>  </li>
-            <li class="li"><a href="#">Terms of Use</a>  </li>
-            <li class="li"><a href="#">Privacy Policy</a>  </li>
-           
-        </ul>
-    </div>
-
-
-    <div class="downnav1box">
-        <ul >
-            <li class="li1">POPULAR JOBS</li>
-            <li class="li"><a href="#">Government Jobs</a>  </li>
-            <li class="li"><a href="#">Private Jobs</a>  </li>
-            <li class="li"><a href="#">Engineering Jobs</a>  </li>
-            <li class="li"><a href="#">Marketing Jobs</a>  </li>
-            <li class="li"><a href="#">Salaries</a>  </li>
-         
-            
-        </ul>
-    </div>
-    <div class="downnav1box ">
-        <ul >
-            <li class="li1">GET INVOLVED</li>
-            <li class="li"><a href="#">Foer Employers</a>  </li>
-            <li class="li"><a href="#">For Partners</a>  </li>
-            <li class="li"><a href="#">For Career Coaches</a>  </li>
-            <li class="li"><a href="#">Send Feedback</a>  </li>
-            <li class="li"><a href="#">Tell a Friend</a>  </li>
-          
-          
-
-        </ul>
-    </div>
-    <div class="downnav1box ">
+      <div class="downnav1box">
         <ul>
-        <li class="li1">SOCIAL MEDIA HANDLES</li>
-        
-        <li class="li special"><a href="#"><i class="fa-brands fa-square-instagram fa-2xl" ></i></a>  </li>
-        <li class="li special"><a href="#"><i class="fa-brands fa-facebook fa-2xl" ></i></a>  </li>
-        <li class="li special"><a href="#"><i class="fa-brands fa-linkedin fa-2xl" ></i></a>  </li>
-        <li class="li special"><a href="#"> <i class="fa-brands fa-pinterest fa-2xl" ></i></a> </li>
-        <li class="li special"><a href="#"><i class="fa-brands fa-youtube fa-2xl" ></i> </a></li>
-       
-    </ul>
-    </div>
-    </div>
+          <li class="li1">ABOUT THE UDYOG SARTHI</li>
+          <li class="li"><a href="#">About us</a> </li>
+          <li class="li"><a href="#">Careers</a> </li>
+          <li class="li"><a href="#">FAQs</a> </li>
+          <li class="li"><a href="#">Contact us</a> </li>
+          <li class="li"><a href="#">Search Jobs</a> </li>
+          <li class="li"><a href="#">Browse Companies</a> </li>
+          <li class="li"><a href="#">Terms of Use</a> </li>
+          <li class="li"><a href="#">Privacy Policy</a> </li>
+
+        </ul>
+      </div>
+
+
+      <div class="downnav1box">
+        <ul>
+          <li class="li1">POPULAR JOBS</li>
+          <li class="li"><a href="#">Government Jobs</a> </li>
+          <li class="li"><a href="#">Private Jobs</a> </li>
+          <li class="li"><a href="#">Engineering Jobs</a> </li>
+          <li class="li"><a href="#">Marketing Jobs</a> </li>
+          <li class="li"><a href="#">Salaries</a> </li>
+
+
+        </ul>
+      </div>
+      <div class="downnav1box ">
+        <ul>
+          <li class="li1">GET INVOLVED</li>
+          <li class="li"><a href="#">Foer Employers</a> </li>
+          <li class="li"><a href="#">For Partners</a> </li>
+          <li class="li"><a href="#">For Career Coaches</a> </li>
+          <li class="li"><a href="#">Send Feedback</a> </li>
+          <li class="li"><a href="#">Tell a Friend</a> </li>
+
+
+
+        </ul>
+      </div>
+      <div class="downnav1box ">
+        <ul>
+          <li class="li1">SOCIAL MEDIA HANDLES</li>
+
+          <li class="li special"><a href="#"><i class="fa-brands fa-square-instagram fa-2xl"></i></a> </li>
+          <li class="li special"><a href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a> </li>
+          <li class="li special"><a href="#"><i class="fa-brands fa-linkedin fa-2xl"></i></a> </li>
+          <li class="li special"><a href="#"> <i class="fa-brands fa-pinterest fa-2xl"></i></a> </li>
+          <li class="li special"><a href="#"><i class="fa-brands fa-youtube fa-2xl"></i> </a></li>
+
+        </ul>
+      </div>
+    </div> -->
 
 
 
 
-  <script src="./app.js"></script>
-  </body>
+    <script src="./app.js"></script>
+</body>
+
 </html>
