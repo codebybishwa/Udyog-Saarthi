@@ -85,25 +85,14 @@ body {
     overflow-y: hidden;
 }
 
-<<<<<<< HEAD:profile.css
 .left{
     height: 100%;
     width: 23%;
     display: flex;
     justify-content: center;
     align-items: center;
-=======
-.demo {
-    height: 20%;
-    width: 100%;
-    background-color: #dddddd;
 }
 
-.left {
-    height: 100%;
-    width: 23%;
->>>>>>> 6ccedf58faae00fc95e80c0db9e0aaebc9fd44d4:profile-page/profile.css
-}
 .whole-part{
     height: 90%;
     width: 95%;
@@ -214,8 +203,6 @@ body {
     font-weight: 600;
     cursor: pointer;
 }
-
-<<<<<<< HEAD:profile.css
 .show-bio{
     /* display: none; */
     height: 20%;
@@ -283,46 +270,11 @@ body {
     animation: animate2 1s 1 forwards;
 }
 
-.bio-edit{
-    
-}
-.bio-edit{
-    display: none;
-    height: 30%;
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.bio-edit textarea{
-    width: 100%;
-    height: 80%;
-    padding: 15px;
-    margin: 20px 0;
-    font-size: 16px;
-    outline: none;
-    resize: none;
-    border-radius: 5px;
-    border-color: #bfbfbf;
-}
-
-textarea:is(:focus, :valid){
-    border-color: #4671EA;
-    border-width: 2px;
-    padding: 14px;
-}
-textarea::-webkit-scrollbar{
-    width: 0px;
-}
-=======
-
 
 
 /* -------------
  Right section of container div starts
 ------------- */
->>>>>>> 6ccedf58faae00fc95e80c0db9e0aaebc9fd44d4:profile-page/profile.css
 
 .right {
     height: 93%;
