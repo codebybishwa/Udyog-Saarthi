@@ -621,7 +621,7 @@ body{
     justify-content: flex-end;
     align-items: flex-start;
 }
-.box{
+.main-box{
     height: 80%;
     width: 30%;
    /* background-color:#282828;*/
