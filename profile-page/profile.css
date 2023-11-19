@@ -574,7 +574,7 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
   border-radius: 10px;
   width: 600px;
-  height: 350px;
+  height: 300px;
   left: 50%;
   top: 50%;
   z-index: 999;
@@ -639,6 +639,13 @@ body {
 }
 .edit-button:hover {
   background-color: #160b2a;
+}
+
+.fix-letter{
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  font-size: 1.35rem;
 }
 
 /* bio edit pop up */
