@@ -36,6 +36,8 @@ nav{
     height: 100%;
     width: 100%;
     outline: none;
+    border-radius: 7px;
+    font-size: 15px;
 }
 input::placeholder { 
     color: #999; 

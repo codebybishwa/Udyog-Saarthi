@@ -17,7 +17,7 @@ var swiper = new Swiper(".mySwiper", {
   });
 
 /* NOTIFICATION START  */
-  const button = document.querySelector('.button');
+const button = document.querySelector('.button');
 const box = document.querySelector('.main-box');
 let count = 0;
 

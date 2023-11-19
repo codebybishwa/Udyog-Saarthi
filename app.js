@@ -50,30 +50,53 @@ bio.addEventListener('click', () => {
 });
 
 const body = document.querySelector('body');
-const edit = document.querySelector('.bio-edit')
+const edit = document.querySelector('.bio-edit');
 const pen = document.querySelector('.fa-pen');
 const myBio = document.querySelector('.my-bio');
 
 const bioTextarea = document.getElementById('bioTextarea');
 const editButton = document.querySelector('.edit-button');
 const cancelBtn = document.querySelector('.bio-edit-icon');
+let flag = 0;
 
-pen.addEventListener('click' ,() => {
+pen.addEventListener('click', (event) => {
+    event.stopPropagation(); // Stop the click event from reaching the document
+
+    flag = 1;
     edit.style.display = "flex";
-    bioTextarea.textContent = myBio.textContent;
+    bioTextarea.value = myBio.innerText;
     body.classList.add("blur");
+
     bioTextarea.addEventListener('input', function () {
         this.style.height = 'auto';
         this.style.height = this.scrollHeight + 'px';
-      });
-      editButton.addEventListener('click', function() {
+    });
+
+    editButton.addEventListener('click', function () {
         myBio.innerText = bioTextarea.value;
-      }); 
-      cancelBtn.addEventListener('click', function(){
-        edit.style.display = "none";
-        body.classList.remove("blur");
-      });
+    });
+    cancelBtn.addEventListener('click', function () {
+        closeEdit();
+    });
+
+    document.addEventListener('click', handleDocumentClick);
 });
 
+function closeEdit() {
+    flag = 0;
+    edit.style.display = "none";
+    body.classList.remove("blur");
+    document.removeEventListener('click', handleDocumentClick);
+}
 
+function handleDocumentClick(event) {
+    const isClickedInsideEdit = edit.contains(event.target);
+    
+    if (!isClickedInsideEdit) {
+        closeEdit();
+    }
+}
+
+
+/***********************Bio end***************************/ 
 
