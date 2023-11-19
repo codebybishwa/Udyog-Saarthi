@@ -145,3 +145,36 @@ function handleDocumentClick(event) {
 // });
 
 /*************************fix-letter code ends********************************/
+/* NOTIFICATION START  */
+const button = document.querySelector('.button');
+const box = document.querySelector('.main-box');
+let count1 = 0;
+
+button.addEventListener('click', (event) => {
+    event.stopPropagation(); // Prevents the click event from reaching the document
+    if (count1 % 2 === 0) {
+     
+        box.classList.add("box1");
+        box.classList.remove("box2");
+    } else {
+     
+        box.classList.add("box2");
+        box.classList.remove("box1");
+    }
+    count1++;
+});
+
+// Add event listener to document to close the box when clicking outside
+document.addEventListener('click', (event) => {
+    const isClickedInsideButton = button.contains(event.target);
+    const isClickedInsideBox = box.contains(event.target);
+    
+    if (!isClickedInsideButton && !isClickedInsideBox) {
+    
+        box.classList.add("box2");
+        box.classList.remove("box1");
+        count1++;
+    }
+});
+
+/* NOTIFICATION END */
