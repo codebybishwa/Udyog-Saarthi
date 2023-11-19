@@ -110,6 +110,7 @@ pen.addEventListener("click", (event) => {
 
   editButton.addEventListener("click", function () {
     myBio.innerText = bioTextarea.value;
+    closeEdit();
     flag1 = 1;
   });
   cancelBtn.addEventListener("click", function () {
