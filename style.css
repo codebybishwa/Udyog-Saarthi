@@ -954,3 +954,68 @@ margin: 0px 20px;
 
 /* resource end */
 /* resource end */
+
+/*  testinomials  start*/
+#main2{
+    height: 55vh;
+       margin-bottom: 50px;
+    margin-bottom: 55px;
+   }
+   
+    #swiper1 {
+       padding-top: 60px;
+       width: 100%;
+       height: 100%;
+      
+     }
+     #swiper-slide1 {
+      display: flex; 
+       height: 69%; 
+     }
+   
+     #swiper-slide1 img {
+       display: block;
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+     }
+     #inside-img{
+       height: 40%;
+       width: 100%;
+       background-color: #fe4400;
+       background-size: cover;
+       background-position: center;
+       border-radius: 10px;
+     }
+     #imgi{
+       height: 100%;
+       width: 27%; 
+       z-index: 1;
+     margin-top: 20px;
+       transform: translateX(10px);
+     
+     }
+     #details{
+       border-radius: 10px;
+       padding: 10px;
+       padding-left: 20px;
+       height: 100%;
+       width: 75%;
+       box-shadow: 0px 2px 20px rgba(82,86,94,0.5);
+       line-height: 30px;
+     }
+     #details i{
+       color: #fe4400;
+       font-size: 20px;
+     }
+     #details h3{
+       color: #999;
+     }
+   
+     #inside-img{
+       background-image: url("https://imgs.search.brave.com/I92mlod5xYnT4vA8kiiWXSW_fGCpAtuoz_BuL7m7aL0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvODA4/MzAxOTQvcGhvdG8v/dS1zLWFjdG9yLXJv/YmVydC1kb3duZXkt/anItYXR0ZW5kcy10/aGUtaXJvbi1tYW4t/cGhvdG9jYWxsLWF0/LWhhc3NsZXItaG90/ZWwtb24tYXByaWwt/MjMtMjAwOC1pbi5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/UlJVMFJyWHZXX2Jk/T25ha2JBdy1UTTdT/Qmc1Y3hrRVZ2YlNt/R1Fibm5yWT0");
+   }
+   #img2{
+       background-image: url("https://imgs.search.brave.com/m1lm1Ci84t4ouBOf-qERNj5I9kcLR6FOLRsvRjXFcpk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvY2hyaXMtaGVt/c3dvcnRoLXBpY3R1/cmVzLW9kc3FxNHdk/NTJrMTIzazAuanBn");
+   }
+/* testinomials end */   
