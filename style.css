@@ -885,9 +885,16 @@ body{
     align-items: center;
     flex-wrap: wrap;
     box-shadow: 4px 4px 12px rgb(20, 3, 97);
-  
+    transition:0.3s;  
 
 }
+
+.bookcard .cards:hover{
+    transform: scale(1.15);
+    overflow: hidden;
+    
+}
+
 .cards .cardimg h4{
     text-align: center;
     z-index:2;
@@ -926,6 +933,10 @@ body{
     
     
 }
+.cardtxt li:hover{
+    color:blueviolet;
+    text-decoration: underline;
+}
 .cardtxt ul{
     list-style-type: circle;
     margin: 20px;
@@ -948,6 +959,7 @@ body{
 
 
 /* other gov websites */
+
 .othergov{
     background-color:transparent;
     height: fit-content;
@@ -955,6 +967,12 @@ body{
     margin: 60px;
 
 }
+
+.othergov .ogwcard .ogwlist li:hover{
+    text-decoration: underline;
+    
+}
+
 .othergov .ogwhead{
     
     margin: 0px 10%;
