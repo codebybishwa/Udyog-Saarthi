@@ -1,34 +1,3 @@
-var swiper = new Swiper(".mySwiper1", {
-  slidesPerView: 3,
-  spaceBetween: 30,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  autoplay: {
-      delay: 2500,
-      disableOnInteraction: false,
-    },
-  
-});
-var swiper = new Swiper(".mySwiper", {
-    spaceBetween: 30,
-    centeredSlides: true,
-    autoplay: {
-      delay: 2500,
-      disableOnInteraction: false,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    grabcursor:true,
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });
-
 /* NOTIFICATION START  */
 const button = document.querySelector('.button');
 const box = document.querySelector('.main-box');
@@ -68,4 +37,3 @@ document.addEventListener('click', (event) => {
 });
 
 /* NOTIFICATION END */
-
