@@ -252,12 +252,10 @@ body{
     justify-content: flex-start;
     top: -90%;
     margin: -25px 0 0 30px;
-
     border-radius: 50%;
     height: 300px;
     position: relative;
     width: 300px;
-
 }
 
 .company-container .company-txt {
@@ -344,6 +342,7 @@ body{
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 .forge_image  .forgecards{
@@ -360,7 +359,7 @@ body{
     align-items: center;
     box-shadow: 4px 4px 8px rgb(0, 195, 255);
     z-index: 1;
-
+    
 }
  .forgecardimage{
     margin: 0px;
@@ -541,12 +540,35 @@ body{
 /* mobile */
 @media (max-width: 480px){
 
-    .rem1,.rem2,.rem3,.rem5,.rem4,#searchbox{
+    .rem1,.rem2,.rem3,.rem5,.rem4,#searchbox,.rem6{
         display: none;
     }
     .nav{
         padding: 0px;
     }
+    .company-container .company-txt .company-heading1 {
+        line-height: 20px;
+        font-size: x-large;
+    }
+    .company-container .company-txt .company-para1 {
+        line-height: 20px;
+        font-size: small;
+    }
+    .company-container .company-culture .img1 img {
+        height: 180px;
+        width: 180px;
+        margin: 0px;
+    }
+    .company-container .company-culture {
+        
+        width: 100%;
+        padding: 10px;
+         margin:10px 50px 10px 0px; 
+    
+    }
+    .articlebox{
+        width: 95%;
+     }
 }
 
 @media (min-width: 481px)and (max-width:610px){
@@ -558,12 +580,42 @@ body{
     .nav{
         padding: 0px;
     }
+    .company-container .company-txt .company-heading1 {
+        line-height: 35px;
+    }
+    .company-container .company-culture .img1 img {
+        height: 220px;
+        width: 220px;
+        margin: 0px;
+    }
+    .company-container .company-culture {
+        
+        width: 100%;
+        padding: 10px;
+         margin:10px 80px 10px 0px; 
+    
+    }
 }
 /* x-small devices */
 @media (min-width: 611px)and (max-width:799px){
 
     .rem1, .rem2, .rem5,#searchbox{
         display: none;
+    }
+    .company-container .company-txt .company-heading1 {
+        line-height: 35px;
+    }
+    .company-container .company-culture .img1 img {
+        height: 250px;
+        width: 250px;
+        margin: 0px;
+    }
+    .company-container .company-culture {
+        
+        width: 100%;
+        padding: 10px;
+         margin:10px 80px 10px 0px; 
+    
     }
 }
 
@@ -573,6 +625,14 @@ body{
     .rem1 , .rem2,.rem3, .rem4{
         display: none;
     }
+    .company-container .company-txt .company-heading1 {
+        line-height: 35px;
+    }
+}
+
+ .company-culture .img1 img {
+    height: 300px;
+    width: 300px;
 }
 
 /* small tablets */
