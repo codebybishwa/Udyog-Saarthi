@@ -67,5 +67,19 @@ document.addEventListener('click', (event) => {
     }
 });
 
+document.addEventListener('scroll', (event) => {
+  const isClickedInsideButton = button.contains(event.target);
+  const isClickedInsideBox = box.contains(event.target);
+  
+  if (!isClickedInsideButton && !isClickedInsideBox) {
+      opened.classList.add('box2');
+      opened.classList.remove('box1');
+      opened.classList.remove('open');
+      box.classList.add("box2");
+      box.classList.remove("box1");
+      count1++;
+  }
+});
+
 /* NOTIFICATION END */
 
